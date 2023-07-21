@@ -1,19 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-
-define('FILE_READ_MODE', 0644);
-define('FILE_WRITE_MODE', 0666);
-define('DIR_READ_MODE', 0755);
-define('DIR_WRITE_MODE', 0777);
-
-/*constant manual*/
-define('APPNAME',"e-arsip/");
-define('MAIN_DOMAIN', "http://".$_SERVER['SERVER_NAME']);
-define('ROOT', MAIN_DOMAIN."/".APPNAME."index.php/");
-define('APP_ROOT', MAIN_DOMAIN."/".APPNAME."");
-define('UPLOADFOLDER_', $_SERVER['DOCUMENT_ROOT']."/".APPNAME."/");
-
 /*
 |--------------------------------------------------------------------------
 | Display Debug backtrace
